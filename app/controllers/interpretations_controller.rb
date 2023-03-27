@@ -1,4 +1,4 @@
-class Api::V1::InterpretationsController < ApplicationController
+class InterpretationsController < ApplicationController
   before_action :set_draw
 
   def index
